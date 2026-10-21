@@ -1,21 +1,21 @@
-# 馃搳 Sistema de Monitoreo y Control de Instrumentos Electr贸nicos
+# Sistema de Monitoreo y Control de Instrumentos Electrónicos
 
 > **Autor:** Ing. Diego Alejandro Amaya Arjona  
-> **Proyecto:** Aplicaci贸n visual en Java para la adquisici贸n, procesamiento y visualizaci贸n en tiempo real de datos mediante comunicaci贸n serial.
+> **Proyecto:** Aplicación visual en Java para la adquisición, procesamiento y visualización en tiempo real de datos mediante comunicación serial.
 
 ---
 
 ## 馃幆 Resumen Ejecutivo & Objetivos
 
-| Elemento | Descripci贸n |
+| Elemento | Descripción |
 | :--- | :--- |
-| **Problema** | Necesidad de capturar, procesar y visualizar de forma centralizada variables f铆sicas (humedad, temperatura, flujo, volumen, peso) desde m煤ltiples instrumentos electr贸nicos. |
-| **Soluci贸n** | Estaci贸n centralizada de monitoreo desarrollada en Java con gr谩ficos din谩micos en tiempo real y exportaci贸n autom谩tica de reportes. |
+| **Problema** | Necesidad de capturar, procesar y visualizar de forma centralizada variables físicas (humedad, temperatura, flujo, volumen, peso) desde múltiples instrumentos electrónicos. |
+| **Solución** | Estación centralizada de monitoreo desarrollada en Java con gráficos dinámicos en tiempo real y exportación automática de reportes. |
 | **Alcance** | Monitoreo y control continuo sobre **3 instrumentos clave** conectables por puerto serial. |
 
 ---
 
-## 馃洜锔?Instrumentos y Variables Medidas
+## Instrumentos y Variables Medidas
 
 ```
   +-----------------------------------------------------------------------+
@@ -29,28 +29,28 @@
 | Termocuplas  |               |   Balanza    |               |  Sensor de   |
 | (Arduino/K)  |               |   Digital    |               |    Flujo     |
 +--------------+               +--------------+               +--------------+
-| 鈥?Temp. T1   |               | 鈥?Peso Real  |               | 鈥?Presi贸n    |
-| 鈥?Temp. T2   |               |   (kg/g)     |               | 鈥?Temp (掳C)  |
-| 鈥?Humedad    |               |              |               | 鈥?Flow (LPM) |
+| - Temp. T1   |               | - Peso Real  |               | - Presión    |
+| - Temp. T2   |               |   (kg/g)     |               | - Temp (C)  |
+| - Humedad    |               |              |               | - Flow (LPM) |
 +--------------+               +--------------+               +--------------+
 ```
 
 ---
 
-## 馃攧 Flujo de Implementaci贸n del Sistema
+## Flujo de Implementación del Sistema
 
 ```
- [1. Comunicaci贸n]  鈹€鈹€鈻? [2. Recepci贸n]   鈹€鈹€鈻? [3. Procesamiento] 鈹€鈹€鈻? [4. Interfaz / GUI]
-  - Puerto Serial         - Captura de          - Validaciones         - Tablas din谩micas
-  - RS-232 / USB            datos brutos        - F贸rmulas de          - Gr谩ficos JFreeChart
-  - Drivers Java                                  calibraci贸n          - Exportaci贸n PDF/Excel
+ [1. Comunicación]  -> 	  [2. Recepción]   -> 	[3. Procesamiento] -> [4. Interfaz / GUI]
+  - Puerto Serial         - Captura de          - Validaciones         - Tablas dinámicas
+  - RS-232 / USB            datos brutos        - Fórmulas de          - Gráficos JFreeChart
+  - Drivers Java                                  calibración          - Exportación PDF/Excel
 ```
 
 ---
 
-## 馃搻 Ajustes y F贸rmulas de Calibraci贸n (Arduino)
+## Ajustes y Fórmulas de Calibración (Arduino)
 
-Para garantizar la precisi贸n de los datos anal贸gicos le铆dos, se aplican las siguientes transformaciones matem谩ticas:
+Para garantizar la precisión de los datos analógicos leídos, se aplican las siguientes transformaciones matemáticas:
 
 * **Temperatura 1 ($T_1$):**
   $$T_1 = \frac{15.381 \times 5.1 \times \text{lectura}_1}{1024}$$
@@ -63,11 +63,11 @@ Para garantizar la precisi贸n de los datos anal贸gicos le铆dos, se aplican la
 
 ---
 
-## 鈿欙笍 Configuraci贸n del Puerto Serial (RS-232 / COM)
+## Configuración del Puerto Serial (RS-232 / COM)
 
 ```
        +----------------------------------------------------+
-       |         Par谩metros de Conexi贸n Serial              |
+       |         Parámetros de Conexión Serial              |
        +-----------------------+----------------------------+
        | Tasa de Baudios       | 9600 bps                   |
        | Bits de Datos         | 8 bits                     |
@@ -79,7 +79,7 @@ Para garantizar la precisi贸n de los datos anal贸gicos le铆dos, se aplican la
 
 ---
 
-## 馃彈锔?Arquitectura de Software
+## Arquitectura de Software
 
 ```
                          +--------------------------+
@@ -107,27 +107,27 @@ Para garantizar la precisi贸n de los datos anal贸gicos le铆dos, se aplican la
 
 ---
 
-## 馃О Tech Stack
+## Tech Stack
 
 * **Lenguaje:** Java 
 * **IDE:** Eclipse + WindowBuilder
-* **Librer铆a de Gr谩ficos:** JFreeChart
-* **Comunicaci贸n Serial:** RXTXcomm / Java Communications API
-* **Generaci贸n de Reportes:** Apache POI (PDF y Excel)
-* **Hardware & Emulaci贸n:** Arduino IDE, VirtualSerialPort
+* **Librería de Gráficos:** JFreeChart
+* **Comunicación Serial:** RXTXcomm / Java Communications API
+* **Generación de Reportes:** Apache POI (PDF y Excel)
+* **Hardware & Emulación:** Arduino IDE, VirtualSerialPort
 
 ---
 
-## 鈿狅笍 Desaf铆os y Restricciones T茅cnicas
+## Desafíos y Restricciones Técnicas
 
-1. **Procesamiento Paralelo Limitado:** Desaf铆os de eficiencia al leer m煤ltiples puertos simult谩neamente.
-2. **Dependencia de Calibraci贸n:** Alto acoplamiento con la velocidad y formato de respuesta de hardware espec铆fico.
-3. **Carga Computacional:** Las gr谩ficas multivariable en tiempo real requieren recursos estables en el equipo host.
+1. **Procesamiento Paralelo Limitado:** Desafíos de eficiencia al leer múltiples puertos simultáneamente.
+2. **Dependencia de Calibración:** Alto acoplamiento con la velocidad y formato de respuesta de hardware específico.
+3. **Carga Computacional:** Las gráficas multivariable en tiempo real requieren recursos estables en el equipo host.
 
 ---
 
-## 馃搶 Conclusiones
+##  Conclusiones
 
-* Se logr贸 una interfaz gr谩fica funcional, modular e intuitiva para el control de variables f铆sicas heterog茅neas.
-* El manejo de eventos seriales en Java permiti贸 una recepci贸n eficiente y estructurada de tramas de datos.
-* La automatizaci贸n de reportes (PDF/XLS) optimiza la toma de decisiones y el almacenamiento hist贸rico de las lecturas.
+* Se logró una interfaz gráfica funcional, modular e intuitiva para el control de variables físicas heterogéneas.
+* El manejo de eventos seriales en Java permitió una recepción eficiente y estructurada de tramas de datos.
+* La automatización de reportes (PDF/XLS) optimiza la toma de decisiones y el almacenamiento histórico de las lecturas.
