@@ -5,7 +5,7 @@
 
 ---
 
-## 馃幆 Resumen Ejecutivo & Objetivos
+## Resumen Ejecutivo & Objetivos
 
 | Elemento | Descripción |
 | :--- | :--- |
