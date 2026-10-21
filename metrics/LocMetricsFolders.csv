@@ -1,0 +1,37 @@
+Folder,Files,LOC,SLOC-P,SLOC-L,MVG,BLOC,C&SLOC,CLOC,CWORD,HCLOC,HCWORD
+Total,47,6773,5223,4432,217,372,56,1178,3914,114,76
+C:\Eclipse Luna\workspace\MonitorVisualGota,47,6773,5223,4432,217,372,56,1178,3914,114,76
+C:\Eclipse Luna\workspace\MonitorVisualGota\src,47,6773,5223,4432,217,372,56,1178,3914,114,76
+C:\Eclipse Luna\workspace\MonitorVisualGota\src\co,47,6773,5223,4432,217,372,56,1178,3914,114,76
+C:\Eclipse Luna\workspace\MonitorVisualGota\src\co\edu,47,6773,5223,4432,217,372,56,1178,3914,114,76
+C:\Eclipse Luna\workspace\MonitorVisualGota\src\co\edu\unal,47,6773,5223,4432,217,372,56,1178,3914,114,76
+C:\Eclipse Luna\workspace\MonitorVisualGota\src\co\edu\unal\fing,47,6773,5223,4432,217,372,56,1178,3914,114,76
+C:\Eclipse Luna\workspace\MonitorVisualGota\src\co\edu\unal\fing\diee,47,6773,5223,4432,217,372,56,1178,3914,114,76
+C:\Eclipse Luna\workspace\MonitorVisualGota\src\co\edu\unal\fing\diee\ingelect,47,6773,5223,4432,217,372,56,1178,3914,114,76
+C:\Eclipse Luna\workspace\MonitorVisualGota\src\co\edu\unal\fing\diee\ingelect\proyinv,47,6773,5223,4432,217,372,56,1178,3914,114,76
+C:\Eclipse Luna\workspace\MonitorVisualGota\src\co\edu\unal\fing\diee\ingelect\proyinv\acelerometro,3,249,198,192,2,11,0,40,124,9,6
+C:\Eclipse Luna\workspace\MonitorVisualGota\src\co\edu\unal\fing\diee\ingelect\proyinv\acelerometro\interfaces,1,23,6,5,0,4,0,13,31,3,2
+C:\Eclipse Luna\workspace\MonitorVisualGota\src\co\edu\unal\fing\diee\ingelect\proyinv\cliente,1,133,115,103,1,7,0,11,31,0,0
+C:\Eclipse Luna\workspace\MonitorVisualGota\src\co\edu\unal\fing\diee\ingelect\proyinv\comserial,4,1065,774,675,29,44,0,247,933,12,8
+C:\Eclipse Luna\workspace\MonitorVisualGota\src\co\edu\unal\fing\diee\ingelect\proyinv\comserial\interfaces,1,45,10,9,0,8,0,27,59,3,2
+C:\Eclipse Luna\workspace\MonitorVisualGota\src\co\edu\unal\fing\diee\ingelect\proyinv\constantes,5,149,73,64,2,17,0,59,201,12,8
+C:\Eclipse Luna\workspace\MonitorVisualGota\src\co\edu\unal\fing\diee\ingelect\proyinv\dao,3,315,123,94,10,41,0,151,477,9,6
+C:\Eclipse Luna\workspace\MonitorVisualGota\src\co\edu\unal\fing\diee\ingelect\proyinv\estadisticas,2,195,90,61,21,20,0,85,202,6,4
+C:\Eclipse Luna\workspace\MonitorVisualGota\src\co\edu\unal\fing\diee\ingelect\proyinv\estadisticas\interfaces,1,72,12,11,0,10,0,50,145,3,2
+C:\Eclipse Luna\workspace\MonitorVisualGota\src\co\edu\unal\fing\diee\ingelect\proyinv\excepciones,1,21,16,11,0,5,0,0,0,0,0
+C:\Eclipse Luna\workspace\MonitorVisualGota\src\co\edu\unal\fing\diee\ingelect\proyinv\graficas,9,772,457,396,16,79,0,236,574,27,18
+C:\Eclipse Luna\workspace\MonitorVisualGota\src\co\edu\unal\fing\diee\ingelect\proyinv\graficas\balanza,1,96,59,52,2,11,0,26,69,3,2
+C:\Eclipse Luna\workspace\MonitorVisualGota\src\co\edu\unal\fing\diee\ingelect\proyinv\graficas\ew32907,4,369,220,192,8,40,0,109,264,12,8
+C:\Eclipse Luna\workspace\MonitorVisualGota\src\co\edu\unal\fing\diee\ingelect\proyinv\graficas\interfaces,1,38,9,8,0,6,0,23,51,3,2
+C:\Eclipse Luna\workspace\MonitorVisualGota\src\co\edu\unal\fing\diee\ingelect\proyinv\graficas\tyh,3,269,169,144,6,22,0,78,190,9,6
+C:\Eclipse Luna\workspace\MonitorVisualGota\src\co\edu\unal\fing\diee\ingelect\proyinv\gui,1,2415,2310,1898,65,46,56,59,561,0,0
+C:\Eclipse Luna\workspace\MonitorVisualGota\src\co\edu\unal\fing\diee\ingelect\proyinv\reportes,12,1253,912,813,60,76,0,265,725,36,24
+C:\Eclipse Luna\workspace\MonitorVisualGota\src\co\edu\unal\fing\diee\ingelect\proyinv\reportes\pdf,4,563,412,368,27,30,0,121,376,12,8
+C:\Eclipse Luna\workspace\MonitorVisualGota\src\co\edu\unal\fing\diee\ingelect\proyinv\reportes\pdf\interfaces,1,54,13,12,0,7,0,34,109,3,2
+C:\Eclipse Luna\workspace\MonitorVisualGota\src\co\edu\unal\fing\diee\ingelect\proyinv\reportes\txt,4,157,98,79,9,16,0,43,83,12,8
+C:\Eclipse Luna\workspace\MonitorVisualGota\src\co\edu\unal\fing\diee\ingelect\proyinv\reportes\txt\interfaces,1,22,5,4,0,4,0,13,32,3,2
+C:\Eclipse Luna\workspace\MonitorVisualGota\src\co\edu\unal\fing\diee\ingelect\proyinv\reportes\xls,4,533,402,366,24,30,0,101,266,12,8
+C:\Eclipse Luna\workspace\MonitorVisualGota\src\co\edu\unal\fing\diee\ingelect\proyinv\reportes\xls\interfaces,1,52,12,11,0,7,0,33,119,3,2
+C:\Eclipse Luna\workspace\MonitorVisualGota\src\co\edu\unal\fing\diee\ingelect\proyinv\termometro,3,61,52,45,2,9,0,0,0,0,0
+C:\Eclipse Luna\workspace\MonitorVisualGota\src\co\edu\unal\fing\diee\ingelect\proyinv\termometro\interfaces,1,9,6,5,0,3,0,0,0,0,0
+C:\Eclipse Luna\workspace\MonitorVisualGota\src\co\edu\unal\fing\diee\ingelect\proyinv\utils,3,145,103,80,9,17,0,25,86,3,2

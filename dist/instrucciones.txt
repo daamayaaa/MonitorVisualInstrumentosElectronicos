@@ -1,0 +1,21 @@
+INSTRUCCIONES PARA SU EJECUCION.
+
+Precondiciones.
+
+1. En el equipo donde se utilizar� esta aplicaci�n debe estar instalada la m�quina virtual de Java JDK 1.7.0_79 o superior.
+2. En la configuraci�n avanzada del sistema, variables de entorno deben estar configuradas las siguientes variables:
+   - JAVA_HOME (Configuraci�n obligatoria para que el programa funcione correctamente).
+   - ANT_HOME (Configuraci�n requerida para que el desarrollador pueda hacer actualizaciones sobre el software).
+3. Descomprimir la carpeta librerias que vienen anexas al proyecto y alojarlas en el siguiente orden.
+	- En la ruta C:\Program Files (x86)\Java\jdk1.7.0_79\jre\lib\ext debe alojar el JAR RXTXcomm.jar.
+	- En la ruta C:\Program Files (x86)\Java\jdk1.7.0_79\jre\bin debe alojar el ejecutable rxtxSerial.dll.
+4. Asegurese de que se encuentren en el documento del instalador las siguientes carpetas.
+   - conf (Archivo de configuraci�n que contiene los logs de ejecución del proyecto).
+   - imagenes (Im�genes requeridas para que funcione la interfaz).
+5. En el equipo donde va a probar la aplicaci�n aseg�rese de que las siguientes carpetas están creadas:
+	- C:\co\edu\unal\fing\diee\ingelect\proyinv\cliente\logs
+	- C:\co\edu\unal\fing\diee\ingelect\proyinv\comserial\logs
+	- C:\co\edu\unal\fing\diee\ingelect\proyinv\graficas\logs
+	Estas carpetas son obligatorias porque en estas rutas se generar�n los logs de la aplicaci�n.
+6. Ejecutar el programa EjecutarMonitorVisualGota.bat.
+   
