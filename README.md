@@ -118,6 +118,14 @@ Para garantizar la precisión de los datos analógicos leídos, se aplican las s
 
 ---
 
+## Infografía de la solución
+
+<p align="center">
+  <img src="./docs/infografia-monitoreo-instrumentos.png" alt="Infografía: aplicación visual para el monitoreo y control de instrumentos electrónicos" width="100%">
+</p>
+
+---
+
 ## Desafíos y Restricciones Técnicas
 
 1. **Procesamiento Paralelo Limitado:** Desafíos de eficiencia al leer múltiples puertos simultáneamente.
